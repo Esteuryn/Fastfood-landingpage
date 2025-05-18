@@ -23,7 +23,9 @@ function Navbar() {
         {/* Desktop nav */}
         <nav className="hidden md:flex gap-6 text-sm font-medium">
           <a href="#home" className="hover:underline">Home</a>
+          <a href="#specials" className="hover:underline">Specials</a>
           <a href="#menu" className="hover:underline">Menu</a>
+          <a href="#location" className="hover:underline">Location</a>
           <a href="#about" className="hover:underline">About</a>
           <a href="#contact" className="hover:underline">Contact</a>
         </nav>
@@ -50,7 +52,9 @@ function Navbar() {
             transition={{ duration: 0.25 }}
           >
             <a href="#home" className="block py-2">Home</a>
+            <a href="#specials" className="block py-2">Specials</a>
             <a href="#menu" className="block py-2">Menu</a>
+            <a href="#location" className="block py-2">Location</a>
             <a href="#about" className="block py-2">About</a>
             <a href="#contact" className="block py-2">Contact</a>
           </motion.nav>

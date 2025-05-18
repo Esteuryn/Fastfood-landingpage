@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import PopularMenuSlider from "./sections/PopularMenuSlider";
 import Menu from './sections/Menu';
 import ComboOffer from './sections/ComboOffer';
+import LocationSection from './sections/LocationSection';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <PopularMenuSlider />
         <ComboOffer />
         <Menu />
+        <LocationSection />
     </>
   );
 }

@@ -1,6 +1,6 @@
 function ComboOffer() {
   return (
-    <section className="bg-black text-white py-20">
+    <section id= "specials" className="bg-black text-white py-20">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 items-center gap-10">
         
         {/* Text section */}

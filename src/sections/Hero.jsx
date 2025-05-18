@@ -2,7 +2,7 @@ import heroImg from "../assets/hero-burguer.png";
 
 function Hero() {
   return (
-    <section className="bg-black text-white py-16">
+    <section id="home" className="bg-black text-white py-16">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 items-center gap-10">
         
         <div>
