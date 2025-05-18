@@ -13,9 +13,12 @@ function Hero() {
             Enjoy the taste of juicy burgers and crispy fries, freshly made and delivered right to your door.
           </p>
           <div className="mt-6 flex justify-start">
-            <button className="bg-yellow-400 text-black font-semibold px-6 py-3 rounded hover:bg-yellow-300 transition">
-              Order Now
-            </button>
+            <a
+              href="#menu"
+              className="inline-block bg-yellow-400 text-black font-semibold px-6 py-3 rounded hover:bg-yellow-300 transition"
+            >
+              Explore Our Menu
+            </a>
           </div>
         </div>
 

@@ -15,7 +15,7 @@ function Menu() {
       : menuItems.filter((item) => item.category === selectedCategory);
 
   return (
-    <section className="bg-black text-white py-20">
+    <section id="menu" className="bg-black text-white py-20">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Explore Our Full Menu

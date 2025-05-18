@@ -3,3 +3,7 @@
 @theme {
   --color-brand: #ffcc00;
 }
+
+html {
+  scroll-behavior: smooth;
+}
