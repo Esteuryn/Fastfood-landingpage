@@ -27,6 +27,7 @@ function Navbar() {
           <a href="#menu" className="hover:underline">Menu</a>
           <a href="#location" className="hover:underline">Location</a>
           <a href="#about" className="hover:underline">About</a>
+          <a href="#founders" className="hover:underline">Team Members</a>
           <a href="#contact" className="hover:underline">Contact</a>
         </nav>
 
@@ -56,6 +57,7 @@ function Navbar() {
             <a href="#menu" className="block py-2">Menu</a>
             <a href="#location" className="block py-2">Location</a>
             <a href="#about" className="block py-2">About</a>
+            <a href="#founders" className="block py-2">Team Members</a>
             <a href="#contact" className="block py-2">Contact</a>
           </motion.nav>
         )}

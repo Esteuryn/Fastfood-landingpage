@@ -5,6 +5,9 @@ import PopularMenuSlider from "./sections/PopularMenuSlider";
 import Menu from './sections/Menu';
 import ComboOffer from './sections/ComboOffer';
 import LocationSection from './sections/LocationSection';
+import AboutUs from './sections/AboutUs';
+import Founders from './sections/TeamMembers';
+import Testimonials from './sections/Testimonials';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <ComboOffer />
         <Menu />
         <LocationSection />
+        <AboutUs />
+        <Founders />
+        <Testimonials />
     </>
   );
 }
